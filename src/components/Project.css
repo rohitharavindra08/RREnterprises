@@ -1,0 +1,67 @@
+
+@font-face {
+  font-family: Noto-sans;
+  src: local('Noto-sans'),url("./Fonts/Noto_Sans/NotoSans-Medium.ttf");
+}
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Noto-sans !important;
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
+/* background-size: cover; */
+  box-shadow: 0 0 10px rgba(2, 74, 79, 0.3);
+  border-radius: 1%;
+  color: #000000;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.project-image img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 20px; 
+  margin-right: 20px;
+}
+
+.project-content {
+  text-align: left;
+  width: 500px;
+}
+
+.project-link{
+  text-decoration: none; 
+  color: inherit;
+}
+
+.partner-link a:hover {
+  text-decoration: underline; 
+}
+.project-about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.live-project-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+}

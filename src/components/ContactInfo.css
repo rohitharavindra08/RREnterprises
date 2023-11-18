@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info-top{
+    background-color: #B5ED3D;;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.company-name {
+    display: block;
+    z-index: 1;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: 700px
+}
+
+.social-links {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.social-links a {
+  font-family:monospace;
+  font: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.creator {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position:static;
+  left: 5rem;
+}
+.col{
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.creator div {
+  font-family:monospace;
+  font: 20px;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.home-button {
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.page-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+.contact-info {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info h2 {
+  font-size: 24px;
+}
+
+.contact-info p {
+  font-size: 18px;
+}
+
+h1{
+    font-family: Manrope;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #111;
+    line-height: 100px;
+    padding: 10px 0px 20px 0px;
+    opacity: 100%;
+}
+
+.instagram-icon {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px;
+}
+
+.social-icon{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}

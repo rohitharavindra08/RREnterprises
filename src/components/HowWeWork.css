@@ -1,0 +1,26 @@
+.how-we-work-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.step-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.arrow {
+  font-size: 24px;
+}
